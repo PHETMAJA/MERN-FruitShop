@@ -1,6 +1,6 @@
 .searchbar {
   position: relative;
-  z-index: 999;
+  z-index: -999;
 }
 
 .searchbar_container {
@@ -8,7 +8,7 @@
   padding: 0.5rem 1rem;
   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.15);
   border-radius: 2rem;
-  color: var(--title-color);
+  background-color: #fff;
 }
 
 .searchbar_input {
