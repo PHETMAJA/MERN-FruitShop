@@ -7,3 +7,4 @@
    3.5 create header
    3.6 make responsive for nav-menu
 3. Create SearchBar component
+4. Create Cart component

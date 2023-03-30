@@ -2,6 +2,7 @@ import '../../Assets/Styles/NavBar.css';
 
 import { NavLink } from 'react-router-dom';
 import SearchBar from '../../Components/SearchBar';
+import Cart from '../../Components/Cart';
 export default function NavBar() {
   return (
     <div className="navbar">
@@ -54,6 +55,7 @@ export default function NavBar() {
             </li>
           </ul>
         </div>
+        <Cart />
       </div>
     </div>
   );
