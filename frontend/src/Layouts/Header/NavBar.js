@@ -1,12 +1,15 @@
 import '../../Assets/Styles/NavBar.css';
 
 import { NavLink } from 'react-router-dom';
+import SearchBar from '../../Components/SearchBar';
 export default function NavBar() {
   return (
     <div className="navbar">
       <div className="navbar_container container">
-        <div className="navbar_logo">PHETSHOP</div>
-
+        <NavLink to="/">
+          <div className="navbar_logo">PHETSHOP</div>
+        </NavLink>
+        <SearchBar />
         <div className="navbar_menu">
           <ul className="navbar_list">
             <li

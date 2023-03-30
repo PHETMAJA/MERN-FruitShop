@@ -15,6 +15,11 @@
   column-gap: 1rem;
 }
 
+.navbar_logo {
+  color: var(--title-color);
+  font-weight: bold;
+}
+
 .navbar_list {
   display: flex;
   column-gap: 2rem;
